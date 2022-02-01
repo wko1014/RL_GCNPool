@@ -8,7 +8,7 @@ class GCIR3_v1(tf.keras.Model):
     def __init__(self):
         super(GCIR3_v1, self).__init__()
 
-        # Regularizer, activation
+        # Define an elastic net regularizer, a layer normalization, and an activation function
         self.regularizer = tf.keras.regularizers.L1L2(l1=.0, l2=.001)
         self.act = tf.keras.layers.ELU()
         self.ln = tf.keras.layers.LayerNormalization()
