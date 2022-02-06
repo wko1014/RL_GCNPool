@@ -3,7 +3,7 @@
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A unified framework for personalized regions selection and functional relation modeling for early MCI identification**<br>
-> Jiyeon Lee<sup>1, \*</sup>, [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1, \*</sup>, Eunsong Kang<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> Jiyeon Lee<sup>1, *</sup>, [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1, *</sup>, Eunsong Kang<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>2</sup>Department of Artificial Intelligence, Korea University) <br/>
 > (\*: Equal contribution)
@@ -38,4 +38,4 @@ If you find this work useful for your research, please cite our [paper](https://
 ```
 
 ## Acknowledgements
-This work was supported by the Institute of Information & Communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (No. 2017-0-00451; Development of BCI based Brain and Cognitive Computing Technology for Recognizing User’s Intentions using Deep Learning).
+This work was supported by National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. 2019R1A2C1006543) and partially by Institute of Information & com- munications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2019-0-00079, Artificial Intelligence Graduate School Program (Korea University)).
