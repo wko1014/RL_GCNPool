@@ -36,7 +36,8 @@ def evaluate(pred, lab, one_hot=True):
         pass
     return auc, acc, sen, spec
 
-data_path = '/home/ko/Desktop/pycharm-2018.3.5/projects/Data/ADNI_JY/'
+# Load datasets
+data_path = '/Define/Your/Own/Path/'
 
 def load_fold_idx(fi):
     train = np.load(data_path + f'fold_index/training_idx_fold_{(fi - 1)}.npy')  # [81]
