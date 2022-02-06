@@ -5,6 +5,7 @@ import tensorflow as tf
 
 from sklearn.metrics import confusion_matrix, roc_auc_score
 
+# Define backpropagation
 def gradient(model, inputs, labels, rl):
     with tf.GradientTape() as tape:
         y_hat = model(inputs, rl=rl)
