@@ -27,7 +27,7 @@ To download ADNI dataset
 If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9061668):
 ```
 @article{lee2021unified,
-  title={A unified framework for personalized regions selection and functional relation modeling for early MCI identification},
+  title={A unified framework for personalized regions selection and functional relation modeling for early {MCI} identification},
   author={Lee, Jiyeon and Ko, Wonjun and Kang, Eunsong and Suk, Heung-Il and Alzheimer’s Disease Neuroimaging Initiative and others},
   journal={NeuroImage},
   volume={236},
