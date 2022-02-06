@@ -3,7 +3,7 @@
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A unified framework for personalized regions selection and functional relation modeling for early MCI identification**<br>
-> Jiyeon Lee<sup>1, *</sup>, [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1, *</sup>, Eunsong Kang<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
+> Jiyeon Lee<sup>1</sup>\*, [Wonjun Ko](https://scholar.google.com/citations?user=Fvzg1_sAAAAJ&hl=ko&oi=ao)<sup>1</sup>\*, Eunsong Kang<sup>1</sup>, [Heung-Il Suk](https://scholar.google.co.kr/citations?user=dl_oZLwAAAAJ&hl=ko)<sup>1, 2</sup><br/>
 > (<sup>1</sup>Department of Brain and Cognitive Engineering, Korea University) <br/>
 > (<sup>2</sup>Department of Artificial Intelligence, Korea University) <br/>
 > (\*: Equal contribution)
@@ -21,7 +21,7 @@ To download ADNI dataset
 * http://adni.loni.usc.edu
 
 ## Usage
-`network.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `experiment.py` contains the main experimental functions.
+`network.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, `experiment.py` contains the main experimental functions, and `analysis.py' is used for the analytical results.
 
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9061668):
