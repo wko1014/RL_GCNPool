@@ -14,7 +14,7 @@ def gradient(model, inputs, labels, rl):
     grad = tape.gradient(loss, model.trainable_variables)
     return loss, grad
 
-
+# Metrics evaluated in our experiments
 def evaluate(pred, lab, one_hot=True):
     if one_hot:
         pred = np.argmax(pred, -1)
