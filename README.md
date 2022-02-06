@@ -1,5 +1,5 @@
 ## A unified framework for personalized regions selection and functional relation modeling for early MCI identification
-<p align="center"><img width="30%" src="files/framework.png" /></p>
+<p align="center"><img width="100%" src="files/framework.png" /></p>
 
 This repository provides a TensorFlow implementation of the following paper:
 > **A unified framework for personalized regions selection and functional relation modeling for early MCI identification**<br>
@@ -16,8 +16,8 @@ This repository provides a TensorFlow implementation of the following paper:
 * [TensorFlow 2.0.0+](https://www.tensorflow.org/)
 
 ## Downloading datasets
-To download SEED-VIG dataset
-* https://bcmi.sjtu.edu.cn/~seed/seed-vig.html
+To download ADNI dataset
+* http://adni.loni.usc.edu
 
 ## Usage
 `network.py` contains the proposed deep learning architectures, `utils.py` contains functions used for experimental procedures, and `experiment.py` contains the main experimental functions.
@@ -25,13 +25,14 @@ To download SEED-VIG dataset
 ## Citation
 If you find this work useful for your research, please cite our [paper](https://ieeexplore.ieee.org/abstract/document/9061668):
 ```
-@inproceedings{ko2020vignet,
-  title={Vignet: A deep convolutional neural network for eeg-based driver vigilance estimation},
-  author={Ko, Wonjun and Oh, Kwanseok and Jeon, Eunjin and Suk, Heung-Il},
-  booktitle={2020 8th International Winter Conference on Brain-Computer Interface (BCI)},
-  pages={1--3},
-  year={2020},
-  organization={IEEE}
+@article{lee2021unified,
+  title={A unified framework for personalized regions selection and functional relation modeling for early MCI identification},
+  author={Lee, Jiyeon and Ko, Wonjun and Kang, Eunsong and Suk, Heung-Il and Alzheimer’s Disease Neuroimaging Initiative and others},
+  journal={NeuroImage},
+  volume={236},
+  pages={118048},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
 
