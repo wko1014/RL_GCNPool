@@ -3,10 +3,10 @@ import numpy as np
 
 from scipy.spatial import distance
 
-class GCIR3_v1(tf.keras.Model):
+class GCIR3(tf.keras.Model):
     tf.keras.backend.set_floatx('float64')
     def __init__(self):
-        super(GCIR3_v1, self).__init__()
+        super(GCIR3, self).__init__()
 
         # Define an elastic net regularizer, a layer normalization, and an activation function
         self.regularizer = tf.keras.regularizers.L1L2(l1=.0, l2=.001)
