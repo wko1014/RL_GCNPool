@@ -72,8 +72,3 @@ class experiment():
 
             print(f'Valid AUC: {_auc:.4f}, ACC: {_acc:.4f}, SEN: {_sen:.4f}, SPEC: {_spec:.4f}')
             print(f'Testing AUC: {auc:.4f}, ACC: {acc:.4f}, SEN: {sen:.4f}, SPEC: {spec:.4f}')
-
-            
-fold = 1 # fold to conduct
-main = experiment(fold_idx=fold)
-main.training()
