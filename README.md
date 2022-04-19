@@ -1,4 +1,4 @@
-## A unified framework for personalized regions selection and functional relation modeling for early MCI identification
+## A Unified Framework for Personalized Regions Selection and Functional Relation Modeling for Early MCI Identification
 <p align="center"><img width="100%" src="files/framework.png" /></p>
 
 This repository provides a TensorFlow implementation of the following paper:
